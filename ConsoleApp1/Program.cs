@@ -10,7 +10,7 @@ static double average(int[] src)
     int sum = 0;
     for(int i =0;i < src.Length; i++)
     {
-        sum += src[i];
+        sum += src[i];// ...
     }
     return (double) sum / src.Length;
 }
