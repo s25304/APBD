@@ -14,3 +14,12 @@ static double average(int[] src)
     }
     return (double) sum / src.Length;
 }
+static int max(int[] src)
+{
+    int max = src[0];
+    for (int i = 1; i < src.Length; i++)
+    {
+        if (src[i] > max) max = src[i];
+    }
+    return max;
+}
